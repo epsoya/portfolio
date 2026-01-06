@@ -30,8 +30,8 @@
 ========================= */
 @font-face {
   font-family: "MyFont";
-  src: url("/fonts/BotchRegular.woff") format("opentype"),
-    url("/fonts/BotchRegular.woff2") format("opentype");
+  src: url("../fonts/BotchRegular.woff") format("opentype"),
+    url("../fonts/BotchRegular.woff2") format("opentype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -893,3 +893,4 @@ textarea {
     transform: translate(0, 0) rotate(0deg);
   }
 }
+
