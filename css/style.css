@@ -30,12 +30,13 @@
 ========================= */
 @font-face {
   font-family: "MyFont";
-  src: url("../fonts/botchregular.woff") format("opentype"),
-    url("../fonts/botchregular.woff2") format("opentype");
+  src: url("/portfolio/fonts/botchregular.woff2") format("woff2"),
+       url("/portfolio/fonts/botchregular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
+
 
 /* =========================
    Reset
@@ -893,6 +894,7 @@ textarea {
     transform: translate(0, 0) rotate(0deg);
   }
 }
+
 
 
 
